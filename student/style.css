@@ -1,0 +1,192 @@
+.root{
+    --main-blue: #3a6cf4;
+}
+*{
+   font-family: 'Poppins', sans-serif;
+   width: auto;
+}
+body {
+  overflow-x: hidden;
+}
+.main{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+header {
+    background-color: rgb(36, 56, 112);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 97%;
+    z-index: 999;
+    margin-bottom: 20px;
+    position: static;
+    
+  }
+  .logo{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  
+  .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    align-self: center;
+    background-color: rgba(104, 104, 104, 0.116);
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #c7c4c4;
+  }
+  
+  .navigation a:hover {
+    color: #ffffff;
+  }
+  #start{
+    background-color:rgb(36, 56, 112);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-right: 20px;
+    width: 97%;
+  }
+  .social-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    align-self: center;
+    height: 10px;
+    line-height: 10px;
+  }
+  #linked, #twitter, #insta, #tube{
+    color: rgb(119, 115, 115);
+  }
+#tube:hover{
+color: rgb(182, 13, 13);
+}
+#insta:hover{
+    color: rgb(46, 34, 112);
+}
+#twitter:hover, #linked:hover{
+    color: rgb(9, 75, 129);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    color: var(--main-blue);
+    border-radius: 5px;
+}
+.contant{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card, .project-card{
+    background-color: #fff;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.contant-b{
+  flex-wrap: wrap;
+  justify-content: center;
+  display: inline;
+}
+#a{
+    font-size: 30px;
+
+}
+a{
+  color: rgb(96, 45, 143);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--main-blue);
+}
+.project-card1{
+  background-color: #ffffff;
+  width: 21.25em;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.project-card1:hover{
+  background-color: #13e447;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+.project-card2:hover{
+  background-color: #c113e4;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+.project-card3:hover{
+  background-color: #251036;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+.project-card2{  background-color: #fff;
+  width: 21.25em;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.project-card3{  background-color: #fff;
+  width: 21.25em;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+#tik{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+#insta{
+  font-family: 'Lobster', cursive;
+  font-size: 32px;
+  color: rgb(46, 34, 112);
+}
+#whats{
+  font-family: 'Roboto', sans-serif;
+}
+#body{
+  align-items: center;
+  display: inline;
+}
+#contant-b{
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
