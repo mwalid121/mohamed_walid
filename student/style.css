@@ -190,3 +190,6 @@ a:hover{
   align-items: center;
   margin-top: 20px;
 }
+.nav-link{
+  color: #757272 !important;
+}
